@@ -1,0 +1,60 @@
+<div class="container">
+     <form [formGroup]="studentform" (ngSubmit)="save()">
+       <section class="card">
+        <div class="card-block">
+        <div class="row">
+        <div>
+            <h3>
+               Add Student
+            </h3>
+            <div class="col-lg-4">
+                    <label class="form-label"> Student Id
+                     <span class="color-red">*</span>
+                    </label>
+                    <div class="form-group" [class.error]="studentformControls.studentid.touched && !studentformControls.studentid.valid">
+                        <input formControlName="studentid" type="text" class="form-control" placeholder="" [class.error]="!studentformControls.studentid.valid">
+                        <div class='color-red' *ngIf="studentformControls.studentid.touched && !studentformControls.studentid.valid">
+                            <ul>
+                                <li *ngIf="studentformControls.studentid.hasError('required')">Student Id is required.</li>
+                                <li *ngIf="studentformControls.studentid.hasError('numberValidator')">Student Id is invalid.</li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-lg-4">
+                    <label class="form-label"> Class
+                     <span class="color-red">*</span>
+                    </label>
+                    <div class="form-group" [class.error]="studentformControls.classname.touched && !studentformControls.classname.valid">
+                            <select type="text" formControlName="classname" class="form-control" placeholder="" [class.error]="!studentformControls.classname.valid">
+                              <option value="">-Select Class-</option>
+                              <option *ngFor="let clas of classes" value="{{clas.ClassesName}}">{{clas.ClassesName}} </option>
+                         </select>
+                        
+                        <div class='color-red' *ngIf="studentformControls.classname.touched && !studentformControls.classname.valid">
+                            <ul>
+                                <li *ngIf="studentformControls.classname.hasError('required')">Class is required.</li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-lg-4">
+                    <label class="form-label"> Professor
+                     <span class="color-red">*</span>
+                    </label>
+                    <div class="form-group" [class.error]="studentformControls.professor.touched && !studentformControls.professor.valid">
+                        <input formControlName="professor" type="text" class="form-control" placeholder="" [class.error]="!studentformControls.professor.valid">
+                        <div class='color-red' *ngIf="studentformControls.professor.touched && !studentformControls.professor.valid">
+                            <ul>
+                                <li *ngIf="studentformControls.professor.hasError('required')">Professor is required.</li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <button [disabled]="!studentform.valid || isSaveProgress" type="submit" class="btn btn-success sign-up">Add</button>
+    </form>
+</div>

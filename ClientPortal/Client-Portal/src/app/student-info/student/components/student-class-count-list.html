@@ -1,0 +1,33 @@
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+    <h3>
+        Student registerd to more than 1 class
+    </h3>
+ <div class="table-responsive"> 
+<table class="table table-bordered">
+  <thead>
+        <tr>
+          <th>
+            <span>Student Id</span>
+          </th>
+          <th>
+            <span>Registered Count</span>
+          </th>
+        </tr>
+  </thead>
+  <tbody>
+        <tr *ngFor="let studata of students">
+          <td>
+            {{studata.StudentID}}
+          </td>
+          <td>
+            {{studata.RegisteredCount}}
+          </td>
+        </tr>
+  </tbody>
+      </table>
+    </div>  
+    </div>
+</div>
+</div>

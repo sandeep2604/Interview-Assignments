@@ -1,0 +1,14 @@
+E:\HUBTOOL\StudentInfo\StudentService\bin\Debug\StudentService.dll
+E:\HUBTOOL\StudentInfo\StudentService\bin\Debug\StudentService.pdb
+E:\HUBTOOL\StudentInfo\StudentService\bin\Debug\StudentBusinessObject.dll
+E:\HUBTOOL\StudentInfo\StudentService\bin\Debug\StudentBusinessObject.pdb
+E:\HUBTOOL\StudentInfo\StudentService\obj\Debug\StudentService.csprojResolveAssemblyReference.cache
+E:\HUBTOOL\StudentInfo\StudentService\obj\Debug\StudentService.dll
+E:\HUBTOOL\StudentInfo\StudentService\obj\Debug\StudentService.pdb
+E:\HUBTOOL\StudentsApi\StudentService\bin\Debug\StudentService.dll
+E:\HUBTOOL\StudentsApi\StudentService\bin\Debug\StudentService.pdb
+E:\HUBTOOL\StudentsApi\StudentService\bin\Debug\StudentBusinessObject.dll
+E:\HUBTOOL\StudentsApi\StudentService\bin\Debug\StudentBusinessObject.pdb
+E:\HUBTOOL\StudentsApi\StudentService\obj\Debug\StudentService.csprojResolveAssemblyReference.cache
+E:\HUBTOOL\StudentsApi\StudentService\obj\Debug\StudentService.dll
+E:\HUBTOOL\StudentsApi\StudentService\obj\Debug\StudentService.pdb

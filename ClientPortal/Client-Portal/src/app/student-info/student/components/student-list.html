@@ -1,0 +1,39 @@
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+    <h3>
+        List of students 
+    </h3>
+  <div class="table-responsive">
+<table class="table table-bordered">
+    <thead>
+        <tr>
+          <th>
+           <span>Student ID</span>
+          </th>
+          <th>
+            <span>Class</span>
+          </th>
+          <th>
+            <span>Professor</span>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let studata of students">
+          <td>
+            {{studata.StudentID}}
+          </td>
+          <td>
+            {{studata.Class}}
+          </td>
+          <td>
+            {{studata.Professor}}
+          </td>
+        </tr>
+      </tbody>
+      </table>
+    </div>
+    </div>
+</div>
+</div>

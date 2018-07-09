@@ -1,0 +1,16 @@
+E:\HUBTOOL\StudentInfo\StudentBusinessObject\bin\Debug\StudentBusinessObject.dll
+E:\HUBTOOL\StudentInfo\StudentBusinessObject\bin\Debug\StudentBusinessObject.pdb
+E:\HUBTOOL\StudentInfo\StudentBusinessObject\obj\Debug\StudentBusinessObject.csprojResolveAssemblyReference.cache
+E:\HUBTOOL\StudentInfo\StudentBusinessObject\obj\Debug\StudentBusinessObject.dll
+E:\HUBTOOL\StudentInfo\StudentBusinessObject\obj\Debug\StudentBusinessObject.pdb
+E:\HUBTOOL\StudentInfo\StudentBusinessObject\bin\Debug\Microsoft.Owin.dll
+E:\HUBTOOL\StudentInfo\StudentBusinessObject\bin\Debug\Owin.dll
+E:\HUBTOOL\StudentInfo\StudentBusinessObject\bin\Debug\Microsoft.Owin.xml
+E:\HUBTOOL\StudentsApi\StudentBusinessObject\bin\Debug\StudentBusinessObject.dll
+E:\HUBTOOL\StudentsApi\StudentBusinessObject\bin\Debug\StudentBusinessObject.pdb
+E:\HUBTOOL\StudentsApi\StudentBusinessObject\bin\Debug\Microsoft.Owin.dll
+E:\HUBTOOL\StudentsApi\StudentBusinessObject\bin\Debug\Owin.dll
+E:\HUBTOOL\StudentsApi\StudentBusinessObject\bin\Debug\Microsoft.Owin.xml
+E:\HUBTOOL\StudentsApi\StudentBusinessObject\obj\Debug\StudentBusinessObject.csprojResolveAssemblyReference.cache
+E:\HUBTOOL\StudentsApi\StudentBusinessObject\obj\Debug\StudentBusinessObject.dll
+E:\HUBTOOL\StudentsApi\StudentBusinessObject\obj\Debug\StudentBusinessObject.pdb

@@ -1,0 +1,33 @@
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+    <h3>
+        Calss list with student registered Count
+    </h3>
+    <div class="table-responsive">  
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>
+            <span>Class</span>
+          </th>
+          <th>
+            <span>Registered Count</span>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let studata of students">
+          <td>
+            {{studata.Class}}
+          </td>
+          <td>
+            {{studata.RegisteredCount}}
+          </td>
+        </tr>
+      </tbody>
+      </table>
+      </div>
+    </div>
+</div>
+</div>
